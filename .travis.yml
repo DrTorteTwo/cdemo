@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "7"
+
+before_install:
+  
+script:
+  - 
+
+
+deploy:
+  provider: script
+  script: bash deploy.sh
+  on:
+    branch: master
